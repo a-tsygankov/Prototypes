@@ -1,0 +1,9 @@
+﻿<Application x:Class="SearchProto1.UI.DX.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SearchProto1.UI.DX"
+             StartupUri="pack://application:,,,/View/MainWindow.DX.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

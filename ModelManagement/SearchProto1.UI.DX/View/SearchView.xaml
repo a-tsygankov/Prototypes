@@ -1,0 +1,63 @@
+﻿<UserControl xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm" 
+             xmlns:ViewModels="clr-namespace:SearchProto1.UI.DX.ViewModel"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+             x:Class="SearchProto1.UI.DX.View.SearchView"
+             mc:Ignorable="d"
+             xmlns:Models="clr-namespace:SearchProto1.Model;assembly=SearchProto1.Model"
+             xmlns:local="clr-namespace:SearchProto1.UI.DX.View;assembly=SearchProto1.UI.DX"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.DataContext>
+        <ViewModels:SearchViewModel/>
+    </UserControl.DataContext>
+    <Grid>
+        <dxlc:LayoutControl Orientation="Vertical">
+            <dxlc:LayoutGroup Header="SearchPane" View="GroupBox" dxlc:LayoutControl.AllowHorizontalSizing="False">
+                <dxlc:LayoutItem Label="Text Search" IsRequired="True">
+                    <dxe:ComboBoxEdit AutoComplete="True" Name="comboBoxEdit1" AllowDefaultButton="False" ItemsSource="{Binding dict}"/>
+                </dxlc:LayoutItem>
+
+            </dxlc:LayoutGroup>
+
+            <dxlc:FlowLayoutControl Margin="20" x:Name="layoutSearchConditions" ItemsSource="{Binding SearchConditions, Mode=OneWay}" 
+                                  Orientation="Horizontal" ItemSpace="7" LayerSpace="12" Background="White" ItemTemplate="{DynamicResource SearchConditionDataTemplate}">
+                <dxlc:FlowLayoutControl.Resources>
+
+
+                    <DataTemplate x:Key="SearchConditionDataTemplate" DataType="{x:Type Models:SearchCondition}">
+                        <StackPanel Orientation="Vertical" Width="300">
+                            <dxlc:LayoutGroup View="Group"  Orientation="Horizontal">
+                                <TextBlock x:Name="message" HorizontalAlignment="Left" Text="{Binding propertyName}" FontWeight="Bold"/>
+                                <dx:SimpleButton                                     
+                                    HorizontalAlignment="Right" 
+                                    Content="Remove" 
+                                    HorizontalContentAlignment="Center" 
+                                    Command="{Binding CloseCommand}" CommandParameter="{Binding ElementName=message, Path=Text}">
+                                    <dx:SimpleButton.DataContext>
+                                        <ViewModels:SearchViewModel/>
+                                    </dx:SimpleButton.DataContext>
+                                </dx:SimpleButton>
+                            </dxlc:LayoutGroup>
+                            <CheckBox 
+                                Content="Include matching models" 
+                                AutomationProperties.ItemStatus="{Binding IsIncluded}" 
+                                DataContext="Binding SearchConditions/"/>
+                            <ComboBox
+                                ItemsSource="{Binding AcceptableValues}" 
+                                SelectedValue="{Binding value}" DataContext="{Binding SearchConditions/propertyDefinition}" />
+                        </StackPanel>
+
+                    </DataTemplate>
+                </dxlc:FlowLayoutControl.Resources>
+
+            </dxlc:FlowLayoutControl>
+
+        </dxlc:LayoutControl>
+
+    </Grid>
+</UserControl>

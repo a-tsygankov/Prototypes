@@ -1,0 +1,117 @@
+[
+  {
+    "Id": 1,
+    "Name": "USD",
+    "FullName": "Unites States Dollar"
+  },
+  {
+    "Id": 2,
+    "Name": "T",
+    "FullName": "AT&T"
+  },
+  {
+    "Id": 3,
+    "Name": "JWN",
+    "FullName": "Nordstrom"
+  },
+  {
+    "Id": 4,
+    "Name": "MS",
+    "FullName": "Morgan Stanley"
+  },
+  {
+    "Id": 5,
+    "Name": "NFLX",
+    "FullName": "NetFlix Inc."
+  },
+  {
+    "Id": 6,
+    "Name": "MSFT",
+    "FullName": "Microsoft Corp."
+  },
+  {
+    "Id": 7,
+    "Name": "COX",
+    "FullName": "Cox Communications"
+  },
+  {
+    "Id": 8,
+    "Name": "AMR",
+    "FullName": "American Airlines"
+  },
+  {
+    "Id": 9,
+    "Name": "AXP",
+    "FullName": "Amern Express Co"
+  },
+  {
+    "Id": 10,
+    "Name": "EK",
+    "FullName": "Eastman Kodak"
+  },
+  {
+    "Id": 11,
+    "Name": "DCX",
+    "FullName": "DaimlerChrysler AG"
+  },
+  {
+    "Id": 12,
+    "Name": "INTC",
+    "FullName": "Intel Corp."
+  },
+  {
+    "Id": 13,
+    "Name": "GM",
+    "FullName": "General Motors Corp."
+  },
+  {
+    "Id": 14,
+    "Name": "F",
+    "FullName": "Ford Motor Co."
+  },
+  {
+    "Id": 15,
+    "Name": "IBM",
+    "FullName": "International Business Machines"
+  },
+  {
+    "Id": 16,
+    "Name": "WCOM",
+    "FullName": "MCI WorldCom, Inc."
+  },
+  {
+    "Id": 17,
+    "Name": "SUNW",
+    "FullName": "Sun Microsystems, Inc."
+  },
+  {
+    "Id": 18,
+    "Name": "LMT",
+    "FullName": "Lockheed Martin Corp"
+  },
+  {
+    "Id": 19,
+    "Name": "SP500",
+    "FullName": "Standard & Poors 500"
+  },
+  {
+    "Id": 20,
+    "Name": "ESP",
+    "FullName": "Spanish Peseta"
+  },
+  {
+    "Id": 21,
+    "Name": "GBP",
+    "FullName": "British Pound Sterling"
+  },
+  {
+    "Id": 22,
+    "Name": "ADBE",
+    "FullName": "Adobe Systems Inc"
+  },
+  {
+    "Id": 23,
+    "Name": "ANF",
+    "FullName": "Abercrombie & Fitch Company A"
+  }
+]

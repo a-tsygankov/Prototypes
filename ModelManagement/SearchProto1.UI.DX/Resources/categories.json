@@ -1,0 +1,268 @@
+[
+  {
+    "SearchableProperties": [
+      {
+        "Id": 1,
+        "PropertyName": "Model Name",
+        "Type": 2,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 2,
+        "PropertyName": "Model Type",
+        "Type": 5,
+        "AcceptableValues": [
+          "Portfolio",
+          "Sector",
+          "Advanced Sector",
+          "Variance",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 21,
+        "PropertyName": "Country",
+        "Type": 5,
+        "AcceptableValues": [
+          "USA",
+          "Mordor",
+          "United Kingdom",
+          "Russia",
+          "Galactic Empire",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 23,
+        "PropertyName": "Taxability",
+        "Type": 5,
+        "AcceptableValues": [
+          "Taxable",
+          "Not Taxable",
+          "Pretty Taxable",
+          "Maybe Taxable",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 12,
+        "PropertyName": "Security Used",
+        "Type": 6,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 31,
+        "PropertyName": "Created",
+        "Type": 4,
+        "AcceptableValues": null
+      }
+    ],
+    "Id": 1,
+    "categoryName": "Recent"
+  },
+  {
+    "SearchableProperties": [
+      {
+        "Id": 1,
+        "PropertyName": "Model Name",
+        "Type": 2,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 2,
+        "PropertyName": "Model Type",
+        "Type": 5,
+        "AcceptableValues": [
+          "Portfolio",
+          "Sector",
+          "Advanced Sector",
+          "Variance",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 3,
+        "PropertyName": "Hierarchy",
+        "Type": 6,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 4,
+        "PropertyName": "Is Submodel",
+        "Type": 1,
+        "AcceptableValues": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 5,
+        "PropertyName": "Target Type",
+        "Type": 5,
+        "AcceptableValues": [
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 6,
+        "PropertyName": "Benchmark",
+        "Type": 1,
+        "AcceptableValues": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 7,
+        "PropertyName": "Lead Account",
+        "Type": 6,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 8,
+        "PropertyName": "Exclude Cash",
+        "Type": 1,
+        "AcceptableValues": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Not Defined"
+        ]
+      }
+    ],
+    "Id": 2,
+    "categoryName": "General"
+  },
+  {
+    "SearchableProperties": [
+      {
+        "Id": 11,
+        "PropertyName": "Note/Description",
+        "Type": 2,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 12,
+        "PropertyName": "Security Used",
+        "Type": 6,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 13,
+        "PropertyName": "Account Default",
+        "Type": 6,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 14,
+        "PropertyName": "Submodel Used",
+        "Type": 6,
+        "AcceptableValues": null
+      },
+      {
+        "Id": 15,
+        "PropertyName": "Overrides",
+        "Type": 1,
+        "AcceptableValues": [
+          "Yes",
+          "No",
+          "Maybe",
+          "Not Defined"
+        ]
+      }
+    ],
+    "Id": 3,
+    "categoryName": "Other"
+  },
+  {
+    "SearchableProperties": [
+      {
+        "Id": 21,
+        "PropertyName": "Country",
+        "Type": 5,
+        "AcceptableValues": [
+          "USA",
+          "Mordor",
+          "United Kingdom",
+          "Russia",
+          "Galactic Empire",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 22,
+        "PropertyName": "Security Level",
+        "Type": 5,
+        "AcceptableValues": [
+          "Secret",
+          "Top Secret",
+          "Super-Puper Top Secret",
+          "Destroy Before Using",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 23,
+        "PropertyName": "Taxability",
+        "Type": 5,
+        "AcceptableValues": [
+          "Taxable",
+          "Not Taxable",
+          "Pretty Taxable",
+          "Maybe Taxable",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 24,
+        "PropertyName": "Investment Option",
+        "Type": 5,
+        "AcceptableValues": [
+          "25%",
+          "50%",
+          "75%",
+          "90%",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 25,
+        "PropertyName": "AAAA",
+        "Type": 5,
+        "AcceptableValues": [
+          "aaaa",
+          "bbbb",
+          "cccc",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 26,
+        "PropertyName": "Market Value",
+        "Type": 5,
+        "AcceptableValues": [
+          "High",
+          "Medium",
+          "Low",
+          "Not Defined"
+        ]
+      },
+      {
+        "Id": 27,
+        "PropertyName": "Draft",
+        "Type": 5,
+        "AcceptableValues": [
+          "Draft",
+          "Clean Copy",
+          "Not Defined"
+        ]
+      }
+    ],
+    "Id": 4,
+    "categoryName": "User Defined Properties"
+  }
+]

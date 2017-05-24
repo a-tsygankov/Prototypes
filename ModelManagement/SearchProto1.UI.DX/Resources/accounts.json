@@ -1,0 +1,26 @@
+[
+  {
+    "Id": 1,
+    "Name": "Test Account"
+  },
+  {
+    "Id": 2,
+    "Name": "Barak Obama"
+  },
+  {
+    "Id": 3,
+    "Name": "Croup Account 1"
+  },
+  {
+    "Id": 4,
+    "Name": "Administrator"
+  },
+  {
+    "Id": 5,
+    "Name": "Andrey"
+  },
+  {
+    "Id": 6,
+    "Name": "Terminator"
+  }
+]
